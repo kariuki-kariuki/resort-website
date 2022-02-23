@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cae7df;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-width: 385px;
+  margin: 3rem;
+}
+
+.card {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: 80%;
+  color: blue;
+}
+
+.card-footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .card {
+    margin: .5rem .5rem;
+  }
+  .card-upper {
+    display: flex;
+  }
+
+  .card-lower {
+    display: flex;
+  }
+}
