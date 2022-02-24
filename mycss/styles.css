@@ -25,3 +25,41 @@ nav li{
     justify-content: space-around;
 }
 
+.container{
+    padding-left: 5%;
+    padding-right: 5%;
+    background: linear-gradient(180deg, #f2f2f2, #ccc5c5);
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.row::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.column-half{
+    width: 50%;
+    float: left;
+}
+
+.content-line{
+    height: 400px;
+    padding: 30px;
+}
+
+.content-line span{
+    display: block;
+    width: 50%;
+    height: 0.1px;
+    margin-top: 40%;
+    background-color: black;
+}
+
+.content img{
+    height: 400px;
+    width: 90%;
+}
+
